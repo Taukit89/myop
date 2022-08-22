@@ -175,8 +175,8 @@ rebuild_firmware() {
         luci luci-base luci-compat luci-i18n-base-en luci-lib-base  \
         luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio  \
         luci-mod-admin-full luci-mod-network luci-mod-status luci-mod-system  \
-        luci-proto-3g luci-proto-ipv6 luci-proto-mbim luci-proto-ncm  \
-        luci-proto-ppp luci-proto-qmi luci-proto-modemmanager  \
+        luci-proto-3g luci-proto-ipv6 luci-proto-ncm  \
+        luci-proto-ppp luci-proto-qmi luci-proto-mbim  \
         \
         luci-app-amlogic \
         \
