@@ -167,10 +167,10 @@ rebuild_firmware() {
         losetup lsblk mkf2fs openssl-util parted  \
         perlbase-file perlbase-time  \
         perlbase-utf8 ppp ppp-mod-pppoe pv  \
-        tar ttyd uclient-fetch uhttpd minicom nano htop  \
+        tar ttyd uclient-fetch uhttpd  \
         uhttpd-mod-ubus unzip uqmi usb-modeswitch uuidgen wget-ssl wpa-cli  \
         wwan xz xz-utils zoneinfo-asia  \
-        zoneinfo-core zstd netdata httping  \
+        zoneinfo-core zstd  \
         \
         luci luci-base luci-compat luci-i18n-base-en luci-lib-base  \
         luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio  \
