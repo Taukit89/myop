@@ -167,16 +167,16 @@ rebuild_firmware() {
         losetup lsblk mkf2fs openssl-util parted  \
         perlbase-file perlbase-time  \
         perlbase-utf8 ppp ppp-mod-pppoe pv  \
-        tar ttyd uclient-fetch uhttpd  \
+        tar ttyd uclient-fetch uhttpd minicom nano htop  \
         uhttpd-mod-ubus unzip uqmi usb-modeswitch uuidgen wget-ssl wpa-cli  \
         wwan xz xz-utils zoneinfo-asia  \
-        zoneinfo-core zstd  \
+        zoneinfo-core zstd netdata httping  \
         \
         luci luci-base luci-compat luci-i18n-base-en luci-lib-base  \
         luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio  \
         luci-mod-admin-full luci-mod-network luci-mod-status luci-mod-system  \
-        luci-proto-3g luci-proto-ipv6 luci-proto-ncm  \
-        luci-proto-ppp luci-proto-qmi luci-proto-relay  \
+        luci-proto-3g luci-proto-ipv6 luci-proto-mbim luci-proto-ncm  \
+        luci-proto-ppp luci-proto-qmi luci-proto-modemmanager  \
         \
         luci-app-amlogic \
         \
