@@ -66,7 +66,7 @@ on:
       openwrt_size:
         description: "Set the rootfs size(Unit: MiB)."
         required: false
-        default: "960"
+        default: "1024"
 
 env:
   TZ: America/New_York
@@ -128,7 +128,7 @@ jobs:
             * Firmware information
             Default IP: 192.168.1.1
             Default username: root
-            Default password: password
+            Default password: none
             Default WIFI name: OpenWrt
             Default WIFI password: none
             Install to EMMC: Login to OpenWrt → System → Amlogic Service → Install OpenWrt
